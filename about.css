@@ -1,0 +1,30 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(5, 5, 5);
+}
+
+.about{
+    color: #ffffff;
+    padding: 20px;
+    
+}
+
+.intro{
+    color: #257736;
+    padding: 20px;
+
+}
+h1,h3,p{
+    color: #ffffff;
+    margin: 20px;
+    padding: 10px;
+}
+.services{
+    display: flex;
+    margin: 30px;
+}
+.icon{
+    color: #d7e936;
+    margin: 30px;
+}

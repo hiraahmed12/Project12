@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    text-align: center;
+}
+
+.box{
+ margin: 10px;
+ padding: 40px;
+}
+
+.table{
+  width: 50px;
+  height: 30px;
+  background-color: hwb(202 25% 8%);
+  padding: 20px;
+  margin: 20px;
+  border: 2px;
+} 
+
+.table2{
+  width: 50px;
+  height: 30px;
+  background-color: hwb(320 55% 8%);
+  padding: 20px;
+  margin: 20px;
+  border: 2px;
+} 
+.table3{
+  width: 50px;
+  height: 30px;
+  background-color: hwb(175 41% 11%);
+  padding: 20px;
+  margin: 20px;
+  border: 2px;
+} 
+.table4{
+  width: 50px;
+  height: 30px;
+  background-color: hwb(283 58% 0%);
+  padding: 20px;
+  margin: 20px;
+  border: 2px;
+} 
+.table5{
+  width: 50px;
+  height: 30px;
+  background-color: hwb(24 56% 6%);
+  padding: 20px;
+  margin: 20px;
+  border: 2px;
+} 
+.table6{
+  width: 50px;
+  height: 30px;
+  background-color: hwb(357 63% 3%);
+  padding: 20px;
+  margin: 20px;
+  border: 2px;
+} 
+.table7{
+  width: 50px;
+  height: 30px;
+  background-color: hwb(175 41% 11%);
+  padding: 20px;
+  margin: 20px;
+  border: 2px;
+}

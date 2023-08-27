@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment7</title>
+</head>
+<body>
+     <!-- first form sec-->
+    <h1 style="text-align: center;">Account Opening Form</h1>
+<h4 style="background-color: aqua;">Personal Details</h4>
+<form>
+    <label for="name">Name*</label>
+        <input type="text" id="name" name="name"><br><br>
+        <label for="fatherName">Name of (Father/Guardian)</label>
+        <input type="text" id="fatherName" name="fatherName"><br><br>
+        <label for="dob">Date of Birth* (dd-mm-yyyy)</label>
+        <input type="text" id="dob" name="dob"><br><br>
+
+        <label for="gender">Gender*</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br><br>
+
+        <label for="nationality">Nationality</label>
+        <input type="text" id="nationality" name="nationality"><br><br>
+        <label for="accountType">Account Type*</label>
+        <label id="accountType" name="accountType">
+        <input type="radio" id="Saving" name="accountType" value="Saving">
+        <label for="Saving">Saving</label>
+        <input type="radio" id="Fixed" name="accountType" value="Fixed">
+        <label for="Fixed">Fixed</label>
+        </label><br><br>
+        <label for="preferences">Preferences</label>
+        <textarea id="preferences" name="preferences"></textarea><br><br>
+        <label for="address">Address</label>
+        <textarea id="address" name="address"></textarea><br><br>
+        <label for="country">Country*</label>
+        <select name="country" id="country">
+            <option value="">Please Select </option>
+            <option value="pakistan">Pakistan</option>
+            <option value="Turkey">Turkey</option>
+            <option value="afghanistan">Afghanistan</option>
+        </select>
+      <br><br>
+        <label for="zipCode">Zip Code*</label>
+        <input type="text" id="zipCode" name="zipCode"><br><br>
+        <label for="phone">Phone*</label>
+        <input type="text" id="phone" name="phone"><br><br>
+        <label for="email">Email*</label>
+        <input type="email" id="email" name="email"><br><br>
+        <label for="password">Password* (6-8 characters)</label>
+        <input type="password" id="password" name="password"><br><br>
+        <label for="verifyPassword">Verify Password*</label>
+        <input type="password" id="verifyPassword" name="verifyPassword"><br><br>
+        <button type="submit">SEND</button>
+        <button type="reset">CLEAR</button>
+</form><br><br>
+
+
+ <!-- second form sec-->
+<div style="background-color: blue; color: white; padding-left: 400px; padding-top: 30px;" >
+<form>
+    
+    <div>
+        <label for="firstName">FIRST NAME</label>
+    <input type="text" id="firstName" name="firstName">
+        (max 30 chareacters A-z)</div><br><br>
+
+    <div>
+        <label for="lastName">LAST NAME</label>
+    <input type="text" id="lastName" name="lastName">
+    (max 30 chareacters A-z)
+    </div><br><br>
+
+    <label for="dob">DATE OF BIRTH (Day Month Year)</label>
+    <input type="date" id="dob" name="dob"><br><br>
+
+    <label for="email">EMAIL ID</label>
+    <input type="email" id="email" name="email"><br><br>
+
+
+    <label for="mobileNumber">MOBILE NUMBER</label>
+    <input type="text" id="mobileNumber" name="mobileNumber"><br><br>
+
+    <label for="gender">GENDER</label>
+    <select id="gender" name="gender">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+    </select><br><br>
+
+    <label for="address">ADDRESS</label>
+    <textarea id="address" name="address"></textarea><br><br>
+
+    <div>
+        <label for="city">CITY</label>
+    <input type="text" id="city" name="city">
+    (max 30 chareacters A-z)
+    </div><br><br>
+
+    <div>
+        <label for="pinCode">PIN CODE</label>
+    <input type="text" id="pinCode" name="pinCode">
+    (6 Digits number)
+    </div>
+    <br><br>
+
+     <div>
+        
+    <label for="state">STATE</label>
+    <input type="text" id="state" name="state">
+    (max 30 chareacters A-z)
+     </div>
+    <br><br>
+
+    <label for="country">COUNTRY</label>
+    <input type="text" id="country" name="country"><br><br>
+
+    <label for="hobbies">HOBBIES</label>
+    <input type="radio" name="hobbies">
+    <label for="drawing">Drawing</label>
+    <input type="radio" name="hobbies">
+    <label for="Singing">Singing</label>
+    <input type="radio" name="hobbies">
+    <label for="dancing">Dancing</label>
+    <input type="radio" name="hobbies">
+    <label for="drawing">programming</label> <br><br>
+    other
+    <input type="radio" name="hobbies">
+    <input type="text" id="hobbies" name="hobbies"><br><br>
+
+   <div>
+    <label for="qualification">QUALIFICATION</label>
+    <table>
+        <th> s.no</th>
+        <th>Examination</th>
+        <th>Board</th>
+        <th>percentage</th>
+        <th>passing year</th>
+        <tr>
+            <td>1</td>
+            <td>class x</td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>class xII</td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Graduation</td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Master</td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+        </tr>
+    </table>
+   </div><br><br>
+
+    <label for="course">COURSE
+        APPLIED FOR
+    </label>
+    <label for="drawing">Bsc</label>
+    <input type="radio" name="course">
+    <label for="Singing">BA</label>
+    <input type="radio" name="course">
+    <label for="dancing">BCom</label>
+    <input type="radio" name="course">
+    
+    <br><br>
+
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
+</form>
+</div>
+ <!-- third form sec -->
+<form style="margin-left: 150px;">
+    <h2>Login details</h2>
+   <div style="margin-left: 100px;">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name"><br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email"><br>
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password">
+   </div><br>
+
+    <h2>Your feedback</h2>
+    <div style="margin-left: 100px;">
+        <p>Please check all the emotions that apply to you:</p>
+    <input type="checkbox" id="angry" name="emotions" value="Angry">
+    <label for="angry">Angry</label><br>
+    <input type="checkbox" id="sad" name="emotions" value="Sad">
+    <label for="sad">Sad</label><br>
+    <input type="checkbox" id="happy" name="emotions" value="Happy">
+    <label for="happy">Happy</label><br>
+    <input type="checkbox" id="ambivalent" name="emotions" value="Ambivalent">
+    <label for="ambivalent">Ambivalent</label>
+    </div><br>
+
+    <p>How satisfied were you with our service?</p>
+    <select id="satisfaction" name="satisfaction">
+        <option value="Very satisfied">Very satisfied</option>
+        <option value="Satisfied">Satisfied</option>
+        <option value="Neutral">Neutral</option>
+        <option value="Dissatisfied">Dissatisfied</option>
+        <option value="Very dissatisfied">Very dissatisfied</option>
+    </select><br><br>
+
+    <input type="submit" value="Submit">
+</form>
+</body>
+</html>
